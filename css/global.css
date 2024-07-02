@@ -1,0 +1,178 @@
+/* Estilos globais comuns a todas as páginas  */
+
+/* Variáveis CSS  */
+:root {
+  --cor-primaria: #003366;
+  --cor-secundaria: #e0e0e0;
+  --preto: #000000;
+  --cinza-escuro: #333333;
+  --cinza-claro: #555555;
+  --fonte-titulos: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --fontes-textos: "Arial", "Helvetica", sans-serif;
+}
+
+/* Configurações gerais  */
+body {
+  color: var(--cinza-escuro);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--fonte-titulos);
+}
+
+p {
+  font-family: var(--fontes-textos);
+  font-size: 18px;
+  text-align: justify;
+}
+
+/* Estilo do Título h2 das Páginas  */
+.titulo-da-pagina {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 30px 0;
+}
+
+/* Imagens do cabeçalho  */
+.logo-header-uepa a img {
+  width: 400px;
+}
+
+.logo-header-sicpa a img {
+  width: 150px;
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#form-busca {
+  display: grid; 
+  grid-template-columns: 1fr auto;
+  gap: 0; 
+}
+#form-busca input[type=search] {
+  padding: 8px;
+  margin: 0;
+  border-radius: 4px;
+  border: none;
+  outline: 1px solid var(--cinza-escuro);
+  border-top-right-radius: 0; 
+  border-bottom-right-radius: 0;
+}
+
+#form-busca input[type=submit] {
+  font-size: 16px;
+  padding: 8px;
+  margin: 0;
+  background-color: var(--cor-primaria);
+  color: var(--cor-secundaria);
+  border-radius: 4px;
+  border-top-left-radius: 0; 
+  border-bottom-left-radius: 0;
+}
+
+/* Menu de Navegação */
+.menu-opcoes {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-primaria);
+}
+
+.menu-opcoes ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.menu-opcoes li {
+  display: inline-block;
+  position: relative;
+}
+
+.menu-opcoes li a {
+  color: var(--cor-primaria);
+  text-transform: uppercase;
+  font-size: 17px;
+  padding: 15px 20px;
+  display: block;
+}
+
+.menu-opcoes li ul {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 150px;
+  z-index: 1;
+}
+
+.menu-opcoes li:hover>ul {
+  display: block;
+  color: #fff;
+}
+
+.menu-opcoes ul li ul li {
+  display: block;
+}
+
+/* Estilos do rodapé */
+#rodape {
+  background-color: var(--cor-secundaria);
+  color: var(--cinza-escuro);
+  padding: 20px;
+  text-align: left;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-governo img {
+  height: 50px;
+}
+
+.midias-sociais a {
+  color: var(--preto);
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+.social {
+  padding: 0;
+  margin: 0;
+}
+
+.social li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social a {
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.endereco p {
+  margin: 0 0;
+}
+
+.info-institucional {
+  margin: 15px 0;
+}
+
+.copyright p {
+  margin-top: 30px;
+  font-size: 16px;
+  color: var(--cinza-claro);
+  text-align: center;
+}

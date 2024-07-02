@@ -1,0 +1,29 @@
+@media screen and (max-width: 768px) {
+  #banner {
+    padding: 20px;
+    width: 100%;
+    height: 800px;
+    color: #fff;
+  }
+
+  #banner h1 {
+    font-size: 48px;
+  }
+
+  #banner p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .menu-opcoes li {
+    display: block;
+  }
+
+  .container-footer,
+  .container-footer p {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+}

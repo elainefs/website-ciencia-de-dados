@@ -1,0 +1,11 @@
+/* Todos os arquivos CSS devem ser importados aqui */
+
+@import url(bootstrap.min.css);
+@import url(reset.css);
+@import url(global.css);
+@import url(pagina-inicial.css);
+@import url(institucional.css);
+@import url(curso.css);
+@import url(rodape.css);
+@import url(responsivo.css);
+@import url(fale-conosco.css);

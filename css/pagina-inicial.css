@@ -1,0 +1,74 @@
+/* Estilos específicos para a página inicial */
+
+#banner {
+  padding: 100px;
+  width: 100%;
+  height: 750px;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 150, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#banner h1 {
+  font-size: 56px;
+  margin-bottom: 20px;
+  color: #fff;
+  text-align: center;
+
+}
+
+#banner p {
+  font-size: 24px;
+  text-align: center;
+  line-height: 1.3;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.btn-saiba-mais {
+  display: inline-block;
+  background-color: var(--cor-primaria);
+  color: var(--cor-secundaria);
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+#estrutura-curso,
+#corpo-docente {
+  margin: 50px auto;
+  text-align: center;
+}
+
+#estrutura-curso h2,
+#corpo-docente h2 {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+#estrutura-curso p,
+#corpo-docente p {
+  margin-bottom: 30px;
+}
+
+.card {
+  border: 1px solid var(--cor-secundaria);
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.card img {
+  width: 50px;
+  margin-bottom: 10px;
+}
